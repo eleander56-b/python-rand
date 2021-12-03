@@ -1,0 +1,30 @@
+import sys
+import time
+
+# timer starten
+startime = time.perf_counter()
+
+# obviously Googol
+num = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+# der Counter
+p = 1
+
+# mit 1 anfangen
+googolvielenullen = "1"
+
+# Googol viele Nullen an die 1 anhängen und ausgeben, bei wie vielen nullen wir gerade sind (p)
+while p != num:
+    googolvielenullen = googolvielenullen + "0"
+    print(p)
+    p = p+1
+    print(p)
+    
+# obvious oder
+googolvielenullen = int(googolvielenullen)
+
+# timer stoppen und ausrechen
+wielange = round(time.perf_counter() - startime, 2)
+
+# Die größe des Stings in Petabytes ausgeben (Petaytes is wahrscheinlich noch eine zu kleine Einheit)
+print((sys.getsizeof(googolvielenullen))/1125899906842624)
