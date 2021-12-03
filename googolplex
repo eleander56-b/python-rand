@@ -16,7 +16,7 @@ googolvielenullen = "1"
 # Googol viele Nullen an die 1 anhängen und ausgeben, bei wie vielen nullen wir gerade sind (p)
 while p != num:
     googolvielenullen = googolvielenullen + "0"
-    if p % 1000000 == 0:
+    if p % 1000000 == 0: #damit nicht die ganze Zeit ressourcen dafür verschwendet werden p anzuzeigen
         print(p)
     p = p+1
     
