@@ -1,5 +1,5 @@
 # python
 
-Emil Brecht 18 m
+Emil Brecht
 
 Fragen/Anregung gerne an community.github@emilbrecht.me senden :)
