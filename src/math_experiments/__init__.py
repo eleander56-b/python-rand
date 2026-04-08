@@ -1,0 +1,1 @@
+"""Mathematical experiments collection."""
